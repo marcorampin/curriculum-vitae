@@ -7,7 +7,7 @@
 }
 
 html {
-	height: 100vh;
+	
 	width: 100%;
 	justify-items: center;
 	margin: 0;
@@ -17,19 +17,35 @@ html {
 }
 
 body {
-    height:247mm;
-    width:170mm;
-    padding: 25mm 20mm 25mm 20mm;
-    margin: 0;
-    border: 1mm solid black;
-    background-color: white;
+   	height:267mm;
+   	width:180mm;
+   	padding: 15mm 15mm 15mm 15mm;
+   	margin: 0;
+   	background-color: white;
     
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 3mm;
+   	display: grid;
+  	grid-template-columns: 1fr 4fr;
+	grid-template-rows: 1fr 1fr 10fr;
+   	gap: 0mm;
+
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 1mm 0 1mm 0;
+}
+
+p {
+	margin-top: 2mm;
+}
+
+ul {
+	padding-left: 7mm;
 }
 
 #name {
+	margin: 0;
+	padding: 0 0 2mm 0;
 	grid-row: 1;
 	grid-column: 1 / -1;
 }
@@ -37,14 +53,33 @@ body {
 #summary {
 	grid-row: 2;
 	grid-column: 1 / -1;
+	padding: 2mm 0 2mm 0;
+	margin: 0;
+	border-top: 0.5mm solid grey;
+	border-bottom: 0.5mm solid grey;
 }
 
 #left-side {
 	grid-row: 3;
 	grid-column: 1;
+	padding: 4mm 4mm 0 0;
+	margin: 0;
+	border-right: 0.5mm solid grey;
+}
+
+#left-side p, #left-side ul {
+	font-size: 3.5mm;
 }
 
 #right-side {
 	grid-row: 3;
 	grid-column: 2;
+	padding: 4mm 0 0 4mm;
+	margin: 0;
+}
+
+
+#education {
+	border-bottom: 0.5mm solid grey;
+	margin-bottom: 3mm;
 }
