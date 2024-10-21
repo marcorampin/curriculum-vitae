@@ -7,7 +7,6 @@
 }
 
 html {
-	
 	width: 100%;
 	justify-items: center;
 	margin: 0;
@@ -24,8 +23,8 @@ body {
    	background-color: white;
     
    	display: grid;
-  	grid-template-columns: 1fr 4fr;
-	grid-template-rows: 1fr 1fr 10fr;
+  		grid-template-columns: 1fr 4fr;
+		grid-template-rows: 1fr 1fr 10fr;
    	gap: 0mm;
 
 }
@@ -62,7 +61,7 @@ ul {
 #left-side {
 	grid-row: 3;
 	grid-column: 1;
-	padding: 4mm 4mm 0 0;
+	padding: 4mm 4mm 0 1.5mm;
 	margin: 0;
 	border-right: 0.5mm solid grey;
 }
